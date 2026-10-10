@@ -1,38 +1,44 @@
 .App {
+  min-height: 100vh;
+  padding: 20px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.formulario {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #cfcccc;
+  border-radius: 10px;
+}
+
+.formulario h2 {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.formulario label {
+  display: block;
+  margin-top: 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.formulario input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.formulario button {
+  margin-top: 20px;
+  padding: 10px;
+  width: 100%;
+  background:#2aa42a;
   color: white;
+  border: none;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.formulario button:hover {
+  background: #2929c8;
 }
