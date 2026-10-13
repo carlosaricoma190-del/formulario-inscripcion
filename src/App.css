@@ -42,3 +42,22 @@
 .formulario button:hover {
   background: #2929c8;
 }
+
+.mensaje {
+  background: #fcfbfb;
+  color: #000000;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.mensaje button {
+  background: #ff5050;
+  color:#fbfbfd;
+  border: none;
+  border-radius: 5px;
+}
+
+.mensaje button:hover {
+  background: #ff0015;
+}
